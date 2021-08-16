@@ -16,7 +16,7 @@ public class AzuredemoApplication {
 	
 	@GetMapping("/fromAzure")
 	public String testAzure() {
-		return "SpringBoot Rest service Successfully deployed in Azure";
+		return "Spring Boot Rest service Successfully deployed in Azure service";
 	}
 
 }
