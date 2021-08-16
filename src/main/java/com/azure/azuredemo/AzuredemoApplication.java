@@ -15,8 +15,13 @@ public class AzuredemoApplication {
 	
 	
 	@GetMapping("/fromAzure")
-	public String testAzure() {
+	public String fromAzure() {
 		return "Congrats for successfully depolyed first spring boot application";
+	}
+	
+	@GetMapping("/testAzureDemo")
+	public String testAzureDemo() {
+		return "Congrats!!!";
 	}
 
 }
