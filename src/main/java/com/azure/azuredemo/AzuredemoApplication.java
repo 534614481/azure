@@ -21,7 +21,7 @@ public class AzuredemoApplication {
 	
 	@GetMapping("/testAzureDemo")
 	public String testAzureDemo() {
-		return "Congrats!!!";
+		return "Congrats!!! you have successfully deployed service in azure";
 	}
 
 }
